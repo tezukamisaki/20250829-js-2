@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #7d3a61;
+  text-align: center;
+}
+
+h1 {
+  margin: 70px 0;
+  color: #fbd068;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+table {
+  margin: 0 auto;
+  font-size: 1.1em;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+
+th,
+td {
+  padding: 10px 25px;
+}
+
+th {
+  background: #a76188;
+  color: #fff;
+}
+
+td {
+  background: #fff;
+  color: #503a47;
+}
+
+.target td,
+td.target {
+  background: #e8e8e8;
+}
